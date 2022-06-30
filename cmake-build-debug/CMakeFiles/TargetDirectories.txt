@@ -1,0 +1,3 @@
+D:/Universidad/5to semestre/Analisis de algoritmos y estructuras de datos/Tarea 4/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/Universidad/5to semestre/Analisis de algoritmos y estructuras de datos/Tarea 4/cmake-build-debug/CMakeFiles/Tarea_4.dir
+D:/Universidad/5to semestre/Analisis de algoritmos y estructuras de datos/Tarea 4/cmake-build-debug/CMakeFiles/edit_cache.dir
