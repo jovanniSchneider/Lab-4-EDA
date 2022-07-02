@@ -37,14 +37,14 @@ int esListaVacia(TDAlista* lista)
 //Entrada: Una lista de horarios y una funcion que debe recibir un nodo y un string
 //Salida: No entrega
 //Funcion: Recorre la lista enlazada y aplica la funcion pasada por parametro a cada nodo
-void recorrerLista(TDAlista* lista, void (*f)(nodo*,char*),char * string)
+void recorrerLista(TDAlista* lista)
 {
   if (!esListaVacia(lista))
   {
     nodo* auxiliar=lista->inicio;
     while (auxiliar!=NULL)
     {
-      (*f)(auxiliar,string);
+        printf("(%d,%d)\n",auxiliar->dato[0],auxiliar->dato[1]);
       auxiliar=auxiliar->siguiente;
     }
   }
